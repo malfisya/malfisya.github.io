@@ -15,7 +15,6 @@ social = [
     { id = "github", url = "https://github.com/malfisya" },
     { id = "email", url = "mailto:malfisya.dev@hotmail.com" },
     { id = "mastodon", url = "https://masto.ai/@alfisya" },
-    { id = "lemmy", url = "https://masto.ai/@alfisya" },
 ]
 
 [[menu.main]]
