@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on malfisya.dev</title>
+    <link>/tags/linux/</link>
+    <description>malfisya.dev (Linux)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+      
+
+      
+    
+
+    
+    <lastBuildDate>Sun, 02 Feb 2025 23:51:20 +0700</lastBuildDate>
+    
+    <atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clean, clean, clean!</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Sun, 02 Feb 2025 23:51:20 +0700</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://help.getsol.us/blog/clean-clean-clean&#34;&gt;This post was first published as devlog on Solus help center at 21-11-2024&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hello everyone! Alfi here, member of Solus Cleanup Crew. It&amp;rsquo;s been more than a year since I started contributing to Solus and I want to talk about it. About what I did, what we did, what we accomplished so far, and what we want to do next.&lt;/p&gt;
+&lt;!-- truncate --&gt;
+&lt;h2 id=&#34;a-bit-of-background&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#a-bit-of-background&#34;&gt;
+        #
+    &lt;/a&gt;
+    A bit of background
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;I started contributing in October 2023, when Solus participated in &lt;a href=&#34;https://getsol.us/2023/10/01/solus-and-hacktoberfest-2023/&#34;&gt;Hacktoberfest&lt;/a&gt;. Hacktoberfest is a month-long event that encourage people to contribute to open source project in exchange for some digital merchandise. Finally, an excuse to contribute to something I use every day. Although, as an accountant, all of this is new experience to me. It was confusing at first, but I persisted. Finally, I got the hang of it and I managed to submit around 100 pull request during the month of the event. I was very excited and motivated. During the month, a few people joined the event and contributed to Solus, but then November came and most of the contribution slowed down. I was the only one left that continued doing the beginner tasks, mostly adding homepage to packages.&lt;/p&gt;
+&lt;p&gt;At the start of January 2024, Jakob Gezelius (&lt;a href=&#34;https://github.com/androidnisse&#34;&gt;androidnisse&lt;/a&gt;) comes in and starts contributing to homepage task too. Worried that we would stepped on each other&amp;rsquo;s feet, we started a private chat to organize the tasks between ourselves. Until May, the two of us had been chipping away at the homepage task which at this point left 650 packages without a homepage. Then we had more contributors joining. I decided to make a group chat to accommodate all the people joining. It was called &amp;ldquo;Solus Homepage Team&amp;rdquo; at the time. More contributors and staff members joined the room, then it was renamed as &amp;ldquo;Solus Cleanup Crew&amp;rdquo; and moved under the official Solus matrix space.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-it&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#what-is-it&#34;&gt;
+        #
+    &lt;/a&gt;
+    What is it?
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Solus cleanup crew is a group of community contributors as as well staff members with the goal of bringing the Solus package repository up to current standard. It is a subset of the packaging room on our matrix channel. We organize the work on all the cleanup related tasks.&lt;/p&gt;
+&lt;h2 id=&#34;why-bother&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#why-bother&#34;&gt;
+        #
+    &lt;/a&gt;
+    Why bother?
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Solus has been updating their tooling and infrastructure since its resurrection. While most of the tooling changes can be accomplished by staff members alone, there are things that they cannot do. While many consider Solus repository as small, it still contains more than 6000 packages. Some packages have never even gotten an update since Solus was first created! We want to get rid of all its cruft before we can migrate to a better tooling. That&amp;rsquo;s where the community contributor can come in and help.&lt;/p&gt;
+&lt;p&gt;For me personally, it is a chance to learn something new and fill my time with more purpose. Sometimes, I feel like a slob scrolling through things, opening the same three apps over and over or sleeping midday. Technically speaking, doing packaging is still scrolling through things, still opening the same three apps over and over, and I still get my midday nap, but now it is with purpose. I love that what I do can be enjoyed by other people. It is mostly invisible and not even noticed by people, but the chance of it helping people gives me so much joy. Why bother? Because I love it.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-accomplished&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#what-we-accomplished&#34;&gt;
+        #
+    &lt;/a&gt;
+    What we accomplished
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;We create a few repository wide task that can done with little reading of our packaging guide. The keen-eyed of you may have already seen these tasks. It is always attached at the end of every Sync Updates since July. These are the tasks we did:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;No.&lt;/th&gt;
+          &lt;th&gt;Task&lt;/th&gt;
+          &lt;th&gt;Date Started&lt;/th&gt;
+          &lt;th&gt;Start count&lt;/th&gt;
+          &lt;th&gt;Current count&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues/411&#34;&gt;Adding homepage key to package.yml&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;30-09-2023&lt;/td&gt;
+          &lt;td&gt;2300&lt;/td&gt;
+          &lt;td&gt;8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues/449&#34;&gt;Adding AppStream metainfo to all font packages&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;06-10-2023&lt;/td&gt;
+          &lt;td&gt;38&lt;/td&gt;
+          &lt;td&gt;Done 🎉&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues/1389&#34;&gt;Adding AppStream metainfo to all graphical applications&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;22-01-2024&lt;/td&gt;
+          &lt;td&gt;316&lt;/td&gt;
+          &lt;td&gt;198&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues/3111&#34;&gt;Applying new cargo macros&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;27-06-2024&lt;/td&gt;
+          &lt;td&gt;37&lt;/td&gt;
+          &lt;td&gt;Done 🎉&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues/4116&#34;&gt;Changing all packages with homepages pointing to wiki.gnome.org&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;20-10-2024&lt;/td&gt;
+          &lt;td&gt;87&lt;/td&gt;
+          &lt;td&gt;62&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;6.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues/4121&#34;&gt;Adding monitoring.yml&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;21-10-2024&lt;/td&gt;
+          &lt;td&gt;3070&lt;/td&gt;
+          &lt;td&gt;2937&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;7.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues?q=is%3Aopen&amp;#43;is%3Aissue&amp;#43;label%3A%22Packaging&amp;#43;Problem%22&#34;&gt;Tagging packages that do not build&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Ongoing&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;13&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;8.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/getsolus/packages/issues?q=is%3Aopen&amp;#43;is%3Aissue&amp;#43;label%3A%22Package%3A&amp;#43;Removal&amp;#43;Request%22&#34;&gt;Tagging packages that should be deprecated&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Ongoing&lt;/td&gt;
+          &lt;td&gt;N/A&lt;/td&gt;
+          &lt;td&gt;25&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As you can see from the table above, we just completed two tasks and we are close to completing homepage task. Packages that do not build also are also getting solved one by one. Right now, there are 12 people in Solus Cleanup Crew Matrix room, 6 of them are new contributors. We also create a new AppStream metainfo documentation, clean up our issue templates, implement a better tagging system for organizing issues and much more. Solus Cleanup Crew is also becoming a place where we can onboard new contributors and recruit new staff. I thought we accomplished a lot and I am happy with it.&lt;/p&gt;
+&lt;h2 id=&#34;what-next&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#what-next&#34;&gt;
+        #
+    &lt;/a&gt;
+    What next?
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;We want to focus on adding appstream metainfo for remaining 200 packages, in line with the goal of 4.7 ISO. It will not be easy nor quick, but we will try our best. We want Solus users to have the best experience possible when we finally say goodbye to &lt;code&gt;solus-sc&lt;/code&gt; and switch to modern software center (Gnome Software and KDE Discover). We want you to be able to install all graphical application from software center and have all the relevant information (Legible screenshot, Hi-Res Icon, good description, etc).&lt;/p&gt;
+&lt;p&gt;We also want to add more &lt;a href=&#34;https://help.getsol.us/docs/packaging/monitoring.yml&#34;&gt;monitoring.yml&lt;/a&gt; files to packages, so we can utilize our proof-of-concept &lt;a href=&#34;https://shared.getsol.us/justin/updates/&#34;&gt;&amp;ldquo;Package Update Monitor&amp;rdquo;&lt;/a&gt; created by &lt;a href=&#34;https://github.com/Justinzobel&#34;&gt;Justin Zobel&lt;/a&gt;. I, myself and &lt;a href=&#34;https://github.com/joebonrichie&#34;&gt;Joey Riches&lt;/a&gt; will explore the possibility of curating our own &amp;ldquo;Editor&amp;rsquo;s Choice&amp;rdquo; and &amp;ldquo;Featured Apps&amp;rdquo; in Gnome Software, made possible by &lt;a href=&#34;https://gitlab.gnome.org/GNOME/gnome-app-list&#34;&gt;&lt;code&gt;gnome-app-list&lt;/code&gt;&lt;/a&gt;. I think the road ahead is very exciting for us and hopefully for you too!&lt;/p&gt;
+&lt;h2 id=&#34;want-to-help&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#want-to-help&#34;&gt;
+        #
+    &lt;/a&gt;
+    Want to help?
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;We are always eager for people to join and spend their time contributing to Solus. There are many ways you can &lt;a href=&#34;https://help.getsol.us/docs/user/contributing/getting-involved&#34;&gt;contribute&lt;/a&gt;, but for me it is packaging. For me, packaging can be relaxing, sometimes frustrating, but always gives me joy at the end. If you are interested to dip your toe on packaging and want to help us, here are the simple steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Join the Solus Packaging Room on Matrix&lt;/li&gt;
+&lt;li&gt;Read and practice our &lt;a href=&#34;https://help.getsol.us/docs/packaging/&#34;&gt;packaging documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Submit your first Pull Request. We recommend doing the wiki gnome task or monitoring task&lt;/li&gt;
+&lt;li&gt;Follow along the review process until your PR gets merged&lt;/li&gt;
+&lt;li&gt;Continue on contributing and you might get invited to Solus Cleanup Crew&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;closing-thoughts&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#closing-thoughts&#34;&gt;
+        #
+    &lt;/a&gt;
+    Closing thoughts
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;I want to thank all the contributors that made all of this possible. It was such a wonderful effort from everyone and we will strive to keep that up. Let me know if you are interested in a follow-up blog about the detail of doing packaging for Solus.&lt;/p&gt;
+&lt;!-- cspell:disable-next-line --&gt;
+&lt;p&gt;&lt;em&gt;Terima kasih dan sampai jumpa&lt;/em&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+baseURL = 'https://malfisya.github.io/'
+languageCode = 'en-us'
+title = 'malfisya.dev'
+theme = 'anubis2'
+
+[params.author]
+name = "Muhammad Alfi Syahrin"
+
+[params]
+description = "Personal blog"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+
+social = [
+    { id = "github", url = "https://github.com/malfisya" },
+    { id = "email", url = "mailto:malfisya.dev@hotmail.com" },
+    { id = "mastodon", url = "https://masto.ai/@alfisya" },
+    { id = "lemmy", url = "https://masto.ai/@alfisya" },
+]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 4
+
+[languages]
+[languages.en]
+languageName = "English"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+author = "authors"
+
+[markup.goldmark.renderer]
+unsafe = true # true | false; Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style = 'base16-snazzy' # Chroma style, find more at here: https://swapoff.org/chroma/playground/
