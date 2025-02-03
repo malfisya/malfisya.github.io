@@ -8,6 +8,12 @@
     <language>en</language>
     
       
+        <managingEditor>malfisya.dev@hotmail.com
+          
+            (malfisya)
+          
+        </managingEditor>
+      
 
       
     
@@ -22,7 +28,7 @@
       <title>Posts</title>
       <link>/posts/</link>
       <pubDate>Sun, 02 Feb 2025 23:51:20 +0700</pubDate>
-      
+      <author>malfisya.dev@hotmail.com (malfisya)</author>
       <guid>/posts/</guid>
       <description></description>
     </item>

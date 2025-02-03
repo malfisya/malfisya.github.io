@@ -9,7 +9,6 @@ tags = [
     "solus",
 ]
 +++
->[This post was first published as devlog on Solus help center at 21-11-2024](https://help.getsol.us/blog/clean-clean-clean)
 
 Hello everyone! Alfi here, member of Solus Cleanup Crew. It's been more than a year since I started contributing to Solus and I want to talk about it. About what I did, what we did, what we accomplished so far, and what we want to do next.
 
@@ -70,3 +69,5 @@ I want to thank all the contributors that made all of this possible. It was such
 <!-- cspell:disable-next-line -->
 
 _Terima kasih dan sampai jumpa_!
+
+*This post was first published as [devlog](https://help.getsol.us/blog/clean-clean-clean) on Solus help center at 21-11-2024

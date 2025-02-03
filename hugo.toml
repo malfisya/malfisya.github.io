@@ -4,17 +4,22 @@ title = 'malfisya.dev'
 theme = 'anubis2'
 
 [params.author]
-name = "Muhammad Alfi Syahrin"
+name = "malfisya"
+email = "malfisya.dev@hotmail.com"
+location = "Indonesia"
 
 [params]
 description = "Personal blog"
-dateFormat = "2006-01-02"
+dateFormat = "02-01-2006"
 paginationSinglePost = true
+
+colorTheme = "auto"
+colorThemeSwitcher = true
 
 social = [
     { id = "github", url = "https://github.com/malfisya" },
-    { id = "email", url = "mailto:malfisya.dev@hotmail.com" },
     { id = "mastodon", url = "https://masto.ai/@alfisya" },
+    { id = "email", url = "mailto:malfisya.dev@hotmail.com" },
 ]
 
 [[menu.main]]

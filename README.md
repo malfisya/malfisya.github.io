@@ -1,3 +1,3 @@
 # Personal Blog
 
-My personal blog, no other contribution allowed
+My personal blog, no outside contribution allowed

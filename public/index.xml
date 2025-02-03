@@ -8,6 +8,12 @@
     <language>en</language>
     
       
+        <managingEditor>malfisya.dev@hotmail.com
+          
+            (malfisya)
+          
+        </managingEditor>
+      
 
       
     
@@ -22,23 +28,20 @@
       <title>About</title>
       <link>/about/</link>
       <pubDate>Sun, 02 Feb 2025 23:55:37 +0700</pubDate>
-      
+      <author>malfisya.dev@hotmail.com (malfisya)</author>
       <guid>/about/</guid>
-      <description>&lt;p&gt;Muhammad Alfi Syahrin
+      <description>&lt;p&gt;Muhammad Alfi Syahrin (malfisya)
 🇮🇩 🖥️🐧📚💸&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Clean, clean, clean!</title>
-      <link>/posts/my-first-post/</link>
+      <link>/posts/clean-clean-clean/</link>
       <pubDate>Sun, 02 Feb 2025 23:51:20 +0700</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://help.getsol.us/blog/clean-clean-clean&#34;&gt;This post was first published as devlog on Solus help center at 21-11-2024&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Hello everyone! Alfi here, member of Solus Cleanup Crew. It&amp;rsquo;s been more than a year since I started contributing to Solus and I want to talk about it. About what I did, what we did, what we accomplished so far, and what we want to do next.&lt;/p&gt;
+      <author>malfisya.dev@hotmail.com (malfisya)</author>
+      <guid>/posts/clean-clean-clean/</guid>
+      <description>&lt;p&gt;Hello everyone! Alfi here, member of Solus Cleanup Crew. It&amp;rsquo;s been more than a year since I started contributing to Solus and I want to talk about it. About what I did, what we did, what we accomplished so far, and what we want to do next.&lt;/p&gt;
 &lt;!-- truncate --&gt;
 &lt;h2 id=&#34;a-bit-of-background&#34; &gt;
 &lt;div&gt;
@@ -185,6 +188,7 @@
 &lt;p&gt;I want to thank all the contributors that made all of this possible. It was such a wonderful effort from everyone and we will strive to keep that up. Let me know if you are interested in a follow-up blog about the detail of doing packaging for Solus.&lt;/p&gt;
 &lt;!-- cspell:disable-next-line --&gt;
 &lt;p&gt;&lt;em&gt;Terima kasih dan sampai jumpa&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;*This post was first published as &lt;a href=&#34;https://help.getsol.us/blog/clean-clean-clean&#34;&gt;devlog&lt;/a&gt; on Solus help center at 21-11-2024&lt;/p&gt;
 </description>
     </item>
     
