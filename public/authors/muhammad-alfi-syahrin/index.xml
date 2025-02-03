@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on malfisya.dev</title>
-    <link>/authors/</link>
-    <description>malfisya.dev (Authors)</description>
+    <title>Muhammad Alfi Syahrin on malfisya.dev</title>
+    <link>/authors/muhammad-alfi-syahrin/</link>
+    <description>malfisya.dev (Muhammad Alfi Syahrin)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -19,9 +19,8 @@
     
 
     
-    <lastBuildDate>Sun, 02 Feb 2025 23:51:20 +0700</lastBuildDate>
     
-    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/authors/muhammad-alfi-syahrin/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,7 +2,7 @@
 date = '2025-02-02T23:51:20+07:00'
 draft = false
 title = 'Clean, clean, clean!'
-author = ["Muhammad Alfi Syahrin"]
+authors = ["malfisya"]
 tags = [
     "linux",
     "devlog",
