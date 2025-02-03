@@ -60,3 +60,10 @@ unsafe = true # true | false; Enable unsafe mode to have a better experience
 
 [markup.highlight]
 style = 'base16-snazzy' # Chroma style, find more at here: https://swapoff.org/chroma/playground/
+
+[params.UmamiAnalytics]
+enabled = true
+dnt = false
+id = "73aedfde-0d25-4cd9-99a9-b0c647638db8" # Website ID
+datacache = false
+url = "https://cloud.umami.is/script.js"
