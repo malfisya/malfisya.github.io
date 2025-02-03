@@ -70,4 +70,4 @@ I want to thank all the contributors that made all of this possible. It was such
 
 _Terima kasih dan sampai jumpa_!
 
-*This post was first published as [devlog](https://help.getsol.us/blog/clean-clean-clean) on Solus help center at 21-11-2024
+<sub>*This article was first published as [devlog](https://help.getsol.us/blog/clean-clean-clean) on Solus help center at 21-11-2024*</sub>
