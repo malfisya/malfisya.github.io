@@ -13,10 +13,10 @@ description = "Personal blog"
 dateFormat = "02-01-2006"
 paginationSinglePost = true
 
-colorTheme = "auto"
-colorThemeSwitcher = true
+anubis2.colorTheme = "auto"
+anubis2.colorThemeSwitcher = true
 
-social = [
+anubis2.socialIcons = [
     { id = "github", url = "https://github.com/malfisya" },
     { id = "mastodon", url = "https://masto.ai/@alfisya" },
     { id = "email", url = "mailto:malfisya.dev@hotmail.com" },
